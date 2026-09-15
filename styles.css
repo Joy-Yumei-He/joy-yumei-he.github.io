@@ -146,3 +146,9 @@ nav{font-size:16px;gap:24px}
 @media(max-width:760px){
   #research-overview>.section-heading{grid-template-columns:minmax(0,1fr);gap:18px;margin-bottom:28px}
 }
+
+/* Match the complete hiking frame to the adjacent copy without cropping. */
+@media(min-width:761px){
+  .beyond-grid{align-items:start}
+  .beyond-photo{width:var(--beyond-photo-width,312px);max-width:100%;justify-self:start}
+}
