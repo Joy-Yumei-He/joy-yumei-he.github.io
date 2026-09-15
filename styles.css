@@ -130,3 +130,6 @@ nav{font-size:16px;gap:24px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.site-header,.hero-actions,.filters,.site-footer,.skip-link,body{background:white;font-size:11pt}.container{width:100%}.section{padding-block:25px}.hero{padding-block:20px}.research-ribbon{background:none}.project-content{display:block}details{break-inside:avoid}.publication{break-inside:avoid}.contact-section{background:none}}
+.hero-profile-links{flex-wrap:wrap;gap:10px 24px;margin-top:16px;font-size:18px;line-height:1.6}
+.hero-profile-links a{white-space:nowrap;text-decoration:underline;text-decoration-color:#c5b4d6;text-underline-offset:4px}
+.hero-profile-links a:hover{text-decoration-color:currentColor}
