@@ -164,3 +164,30 @@ nav{font-size:16px;gap:24px}
   .beyond-grid{align-items:start}
   .beyond-photo{width:var(--beyond-photo-width,312px);max-width:100%;justify-self:start}
 }
+
+/* Detailed academic service: readable categories, years, and responsibilities. */
+.service-group+.service-group{margin-top:48px;padding-top:36px;border-top:1px solid var(--line)}
+.service-group>h3{font:400 29px/1.3 var(--serif);margin:0 0 24px;color:var(--ink)}
+.service-appointments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 48px}
+.service-appointments article{border-left:2px solid #d5c5e4;padding-left:20px}
+.service-group h4{font:500 21px/1.4 var(--serif);margin:0 0 6px;color:var(--ink)}
+.service-group p,.service-list{font-size:18px;line-height:1.75}
+.service-group .service-date{font-size:16px;color:var(--purple);margin:0 0 8px}
+.service-context{margin:-12px 0 24px}
+.service-year-group{display:grid;grid-template-columns:76px minmax(0,1fr);gap:24px;padding-block:20px;border-top:1px solid var(--line)}
+.service-year-group>h4{font:italic 25px/1.4 var(--serif);color:var(--purple)}
+.service-list{margin:0;padding-left:20px;color:var(--muted)}
+.service-list li+li{margin-top:9px}
+.service-list li::marker{color:#9476af}
+.service-list strong{font-weight:600;color:var(--ink)}
+.service-review-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:48px}
+.service-review-grid h4{margin-bottom:16px}
+@media(max-width:760px){
+  .service-group+.service-group{margin-top:36px;padding-top:28px}
+  .service-group>h3{font-size:26px;margin-bottom:20px}
+  .service-appointments,.service-review-grid{grid-template-columns:1fr;gap:24px}
+  .service-year-group{grid-template-columns:1fr;gap:10px;padding-block:20px}
+  .service-group h4{font-size:20px}
+  .service-group p,.service-list{font-size:17px}
+  .service-group .service-date{font-size:15px}
+}
