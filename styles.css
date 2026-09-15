@@ -139,3 +139,10 @@ nav{font-size:16px;gap:24px}
 .research-ribbon,.publications-section,.teaching-section,.service-section,.contact-section{background:var(--paper)}
 .contact-section{border-top:1px solid var(--line)}
 .publication-detail,.contact-bottom>p{color:var(--muted)}
+
+/* Keep the overview heading and introduction together as one balanced row. */
+#research-overview>.section-heading{display:grid;grid-template-columns:max-content minmax(0,640px);justify-content:start;align-items:center;gap:clamp(32px,4.2vw,64px);margin-bottom:36px}
+#research-overview .section-intro{max-width:none;margin:0;text-wrap:balance}
+@media(max-width:760px){
+  #research-overview>.section-heading{grid-template-columns:minmax(0,1fr);gap:18px;margin-bottom:28px}
+}
