@@ -134,6 +134,18 @@ nav{font-size:16px;gap:24px}
 .hero-profile-links a{white-space:nowrap;text-decoration:underline;text-decoration-color:#c5b4d6;text-underline-offset:4px}
 .hero-profile-links a:hover{text-decoration-color:currentColor}
 
+/* Contact details belong with the opening biography, on the same type scale. */
+.hero-copy .role,.hero-copy .role span,.hero-description,.hero-profile-links,.hero-contact,.education-note p:not(.eyebrow){font-family:var(--serif);font-size:18px;line-height:1.75}
+.hero-contact{margin-top:12px;scroll-margin-top:110px}
+.hero-contact p+p{margin-top:6px}
+.hero-contact a{color:var(--purple);text-decoration:underline;text-decoration-color:#c5b4d6;text-underline-offset:4px}
+.hero-contact a:hover{text-decoration-color:currentColor}
+.site-footer{border-top:1px solid var(--line)}
+@media(max-width:760px){
+  .hero-copy .role,.hero-copy .role span,.hero-description,.hero-profile-links,.hero-contact,.education-note p:not(.eyebrow){font-size:17px}
+  .hero-contact{scroll-margin-top:90px}
+}
+
 /* White page surfaces, with lavender retained for accents and photo frames. */
 .site-header{background:rgba(255,255,255,.97)}
 .research-ribbon,.publications-section,.teaching-section,.service-section,.contact-section{background:var(--paper)}
