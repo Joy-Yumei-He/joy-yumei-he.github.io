@@ -165,6 +165,20 @@ nav{font-size:16px;gap:24px}
   .beyond-photo{width:var(--beyond-photo-width,312px);max-width:100%;justify-self:start}
 }
 
+/* Compact honors: award, all years, and institution in one flowing entry. */
+.awards-list:has(.award-compact){list-style:disc;padding-left:22px}
+.awards-group .award-compact{display:list-item;border:0;padding:7px 0 7px 4px}
+.award-compact::marker{color:var(--purple);font-size:15px}
+.award-compact .award-summary{font:400 20px/1.65 var(--serif);color:var(--muted)}
+.award-compact h4{display:inline;font:500 20px/1.65 var(--serif);color:var(--ink)}
+.award-compact time{font:inherit;color:inherit;padding:0}
+.award-compact .award-inline-years{color:var(--purple)}
+.award-compact .award-paper{font-size:17px;line-height:1.6;margin-top:2px}
+@media(max-width:760px){
+  .award-compact .award-summary,.award-compact h4{font-size:18px}
+  .award-compact .award-paper{font-size:16px}
+}
+
 /* Open AI Science shares the site's white surfaces and lavender accents. */
 .hero-description a{color:var(--purple);text-decoration:underline;text-underline-offset:4px}
 .open-science-feature{scroll-margin-top:110px;border-left:2px solid #d5c5e4;padding-left:26px;margin-top:30px}
