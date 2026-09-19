@@ -17,7 +17,7 @@
   <title>Yumei He | Personal Website</title>
   <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/eb-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=25">
+  <link rel="stylesheet" href="styles.css?v=26">
   <script src="app.js?v=5" defer></script>
   <noscript><style>.menu-toggle{display:none!important}@media(max-width:760px){.header-inner{height:auto;min-height:72px;flex-wrap:wrap;padding-block:14px}#main-nav{display:flex;position:static;flex-direction:row;flex-wrap:wrap;padding:10px 0 0;gap:5px 13px;border:0;box-shadow:none;font-size:11px}#main-nav a{padding:6px 0}#main-nav .nav-contact{border:0;margin:0;text-align:left}}</style></noscript>
   <script type="application/ld+json">
@@ -69,7 +69,7 @@
         <p class="role">Assistant Professor<br><span>A. B. Freeman School of Business, Tulane University</span></p>
         <div class="social-links hero-profile-links" role="group" aria-label="Academic and professional profiles"><a href="https://freeman.tulane.edu/faculty-research/management-science/yumei-he" target="_blank" rel="noopener">Tulane profile ↗</a><a href="https://scholar.google.com/citations?hl=en&amp;user=YMXKEdUAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://www.linkedin.com/in/yumeihe/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
         <h2 class="hero-statement">AI, Human Behavior, <em>and Knowledge Production.</em></h2>
-        <p class="hero-description">My research examines AI as infrastructure for innovation, knowledge production, and organizational activity, with a focus on platform design, AI for science, and human-AI co-evolution.</p>
+        <p class="hero-description">My research examines AI as infrastructure for innovation, knowledge production, and organizational activity, with a focus on platform design, AI for science, and human-AI co-evolution. I am committed to advancing openness in AI development and reproducible scientific research. My work in <a href="#open-ai-science">Open AI Science</a> includes contributions to Moxin 7B, a fully open-source language model, and research on AI agents for scientific discovery.</p>
         <div class="education-note"><p class="eyebrow">EDUCATION & APPOINTMENTS</p><p><strong>Ph.D. in Management Information Systems</strong><br>Tsinghua University · 2019</p><p>Previously at the University of Minnesota’s Carlson School and the University of Houston’s Bauer College as a postdoctoral fellow.</p></div>
         <div class="hero-actions"><a class="button button-primary" href="#research">Research Overview <span aria-hidden="true">↗</span></a></div>
       </div>
@@ -107,9 +107,36 @@
       </section>
       <section id="ai-science" class="research-category" aria-labelledby="ai-science-title">
         <div class="section-heading"><div><p class="eyebrow">RESEARCH / 02</p><h2 id="ai-science-title">AI for <em>Science</em></h2></div></div>
+        <section id="open-ai-science" class="open-science-feature" aria-labelledby="open-ai-science-title">
+          <h3 id="open-ai-science-title">Open AI Science</h3>
+          <p class="open-science-intro">My work connects open-source AI development with AI-enabled scientific inquiry. I study and contribute to models, evaluation methods, and agent-based systems that support transparent and reproducible research.</p>
+          <div class="open-science-projects">
+            <article>
+              <p class="eyebrow">OPEN-SOURCE MODELS</p>
+              <h4>Moxin 7B</h4>
+              <p>I contributed to Moxin 7B, a fully open-source language model. The project makes training code, data, model weights, and checkpoints available to support independent examination, reproduction, and further development.</p>
+              <div class="research-resource-links"><a href="https://arxiv.org/abs/2412.06845" target="_blank" rel="noopener">Technical report ↗</a><a href="https://github.com/moxin-org" target="_blank" rel="noopener">Open-source resources ↗</a></div>
+              <p class="project-presentation"><em>Fully Open-Source Moxin-LLM</em><br>ICLR Workshop on Open Science for Foundation Models · 2025</p>
+            </article>
+            <article>
+              <p class="eyebrow">SCIENTIFIC DISCOVERY</p>
+              <h4>Open Models and Scientific Research</h4>
+              <p>I investigate how open language models and AI agents can support scientific discovery, from construct operationalization and experimental design to model evaluation and research workflows.</p>
+              <p class="project-presentation"><em>The Scaling Law of Mind: How Open Large Language Models Accelerate Scientific Discovery</em><br>Decision Sciences Institute Annual Conference · 2025</p>
+            </article>
+          </div>
+          <aside class="research-coverage" aria-labelledby="research-coverage-title">
+            <h4 id="research-coverage-title">Featured by the Freeman School</h4>
+            <ul>
+              <li><a href="https://freemannews.tulane.edu/2025/09/10/freeman-researcher-helps-create-open-source-ai-that-rivals-industry-leaders" target="_blank" rel="noopener">Freeman researcher helps create open-source AI that rivals industry leaders ↗</a><span>Freeman News · September 2025</span></li>
+              <li><a href="https://freemanmag.tulane.edu/2025/11/10/thinking-outside-the-black-box/" target="_blank" rel="noopener">Thinking outside the black box ↗</a><span>Freeman Business · Fall 2025</span></li>
+            </ul>
+          </aside>
+        </section>
         <div class="category-working-papers"><h3>Work in Progress</h3><div class="project-content">
           <article><h4>Multi-Agent Framework and System for Social Science</h4></article>
           <article><h4>Scaling Minds with Open AI Operating Systems for Scientific Discovery</h4></article>
+          <article><h4>Autonomous Scientific Research: Capabilities, Open Challenges, and AI-for-AI</h4></article>
           <article><h4>Crowd Vote: An Ensemble Learning Approach to Large Language Model as a Judge Frameworks</h4></article>
           <article><h4><a href="https://arxiv.org/abs/2604.16592" target="_blank" rel="noopener">Human Cognition in Machines: A Unified Perspective of World Models <span aria-hidden="true">↗</span></a></h4></article>
         </div></div>
@@ -203,21 +230,16 @@
     </section>
 
     <section id="awards" class="awards-section section nav-section" aria-labelledby="awards-title"><div class="container">
-      <div class="section-heading"><div><p class="eyebrow">03 / AWARDS</p><h2 id="awards-title">Awards, Honors, <em>and Grants</em></h2></div></div>
-      <section id="conference-awards" class="awards-group" aria-labelledby="conference-awards-title">
-        <h3 id="conference-awards-title">Conference Paper Awards and Recognitions</h3>
+      <div class="section-heading"><div><p class="eyebrow">03 / AWARDS</p><h2 id="awards-title">Honors <em>&amp; Awards</em></h2></div></div>
+      <section id="academic-awards" class="awards-group" aria-labelledby="academic-awards-title">
+        <h3 id="academic-awards-title">Academic and Conference Honors</h3>
         <ol class="awards-list" role="list">
+          <li class="award-entry" data-award-id="research-award-2026" data-award-status="award"><time datetime="2026">2026</time><div><h4>Research Award</h4><p>A. B. Freeman School of Business, Tulane University</p></div></li>
+          <li class="award-entry" data-award-id="teaching-award-2025" data-award-status="award"><time datetime="2025">2025</time><div><h4><a href="https://freemannews.tulane.edu/2025/09/17/three-honored-with-freeman-teaching-awards" target="_blank" rel="noopener">Dean’s Excellence in Teaching Award <span aria-hidden="true">↗</span></a></h4><p>Undergraduate Core Excellence · A. B. Freeman School of Business, Tulane University</p></div></li>
           <li class="award-entry" data-award-id="dsi-2025-award" data-award-status="award"><time datetime="2025">2025</time><div><h4>Best Interdisciplinary Award</h4><p>Decision Sciences Institute (DSI) Annual Conference</p><p class="award-paper">Learning of GenAI Adoption</p></div></li>
           <li class="award-entry" data-award-id="informs-2023-runner-up" data-award-status="award"><time datetime="2023">2023</time><div><h4>INFORMS ISS Cluster Best Paper Runner-Up Award</h4><p>INFORMS Annual Meeting</p><p class="award-paper">The Role of AI Assistants in Online Shopping Platforms: Evidence from Livestream Selling</p></div></li>
           <li class="award-entry" data-award-id="icis-2021-track-award" data-award-status="award"><time datetime="2021">2021</time><div><h4>Best Track Paper Award</h4><p>International Conference on Information Systems (ICIS)</p><p class="award-paper">Preserving User Privacy Through Ephemeral Sharing Design: A Large-Scale Randomized Field Experiment in the Online Dating Context</p></div></li>
           <li class="award-entry" data-award-id="amcis-2021-top-paper" data-award-status="recognition"><time datetime="2021">2021</time><div><h4>Top 25% Paper</h4><p>Americas Conference on Information Systems (AMCIS)</p><p class="award-paper">The Sales Data Sells: Effects of Real-Time Sales Analytics on Live Streaming Selling</p></div></li>
-        </ol>
-      </section>
-      <section id="academic-awards" class="awards-group" aria-labelledby="academic-awards-title">
-        <h3 id="academic-awards-title">Academic Awards, Scholarships, and Distinctions</h3>
-        <ol class="awards-list" role="list">
-          <li class="award-entry" data-award-id="research-award-2026" data-award-status="award"><time datetime="2026">2026</time><div><h4>Research Award</h4><p>A. B. Freeman School of Business, Tulane University</p></div></li>
-          <li class="award-entry" data-award-id="teaching-award-2025" data-award-status="award"><time datetime="2025">2025</time><div><h4><a href="https://freemannews.tulane.edu/2025/09/17/three-honored-with-freeman-teaching-awards" target="_blank" rel="noopener">Dean’s Excellence in Teaching Award <span aria-hidden="true">↗</span></a></h4><p>Undergraduate Core Excellence · A. B. Freeman School of Business, Tulane University</p></div></li>
           <li class="award-entry" data-award-id="doctoral-thesis-2019" data-award-status="award"><time datetime="2019">2019</time><div><h4>Best Doctoral Thesis Award</h4><p>Tsinghua University</p></div></li>
           <li class="award-entry" data-award-id="graduate-honor-2019" data-award-status="award"><time datetime="2019">2019</time><div><h4>Graduate with Honor</h4><p>Tsinghua University</p></div></li>
           <li class="award-entry" data-award-id="linshi-xiao-2019" data-award-status="award"><time datetime="2019">2019</time><div><h4>Linshi Xiao Scholarship</h4><p>Tsinghua University</p></div></li>
@@ -242,7 +264,12 @@
           <li class="award-entry" data-award-id="bernick-2023" data-award-status="grant"><time datetime="2023">2023</time><div><h4>Carol Lavin Bernick Faculty Grant</h4><p>Tulane University · $1,000</p></div></li>
         </ol>
       </section>
-      <section id="other-honors" class="awards-group" aria-labelledby="other-honors-title">
+    </div></section>
+
+    <section id="beyond" class="section container beyond-grid nav-section" aria-labelledby="beyond-title">
+      <div><p class="eyebrow">04 / BEYOND RESEARCH</p><h2 id="beyond-title">Beyond <em>Research</em></h2><p>Outside academia, I enjoy running and mountaineering. As an undergraduate, I was a track and field athlete, competing in middle- and long-distance running and the 400 meters. In 2019, I was a member of Tsinghua University’s mountaineering team.</p><p>I approach research, teaching, and life with optimism, curiosity, and persistence. Sports are an important source of energy and balance in my daily life.</p></div>
+      <figure class="beyond-photo"><div class="beyond-image"><img src="assets/yumei-he-hiking-closeup.png" alt="Yumei He hiking on a forest trail with a backpack and trekking poles" width="864" height="890" loading="lazy" decoding="async"></div><div class="photo-frame-footer" aria-hidden="true"></div></figure>
+      <section id="other-honors" class="awards-group beyond-honors" aria-labelledby="other-honors-title">
         <h3 id="other-honors-title">Athletic and Other Honors</h3>
         <ol class="awards-list" role="list">
           <li class="award-entry" data-award-id="half-marathon-2018" data-award-status="recognition"><time datetime="2018">2018</time><div><h4>10th Place, Ma John Cup Half Marathon</h4><p>Tsinghua University</p></div></li>
@@ -251,11 +278,6 @@
           <li class="award-entry" data-award-id="relay-undated" data-award-status="recognition"><span class="award-year">Undated</span><div><h4>7th Place (Division B), 4×100 m Relay</h4><p>Beijing Collegiate Track and Field Meet</p></div></li>
         </ol>
       </section>
-    </div></section>
-
-    <section id="beyond" class="section container beyond-grid nav-section" aria-labelledby="beyond-title">
-      <div><p class="eyebrow">04 / BEYOND RESEARCH</p><h2 id="beyond-title">Beyond <em>Research</em></h2><p>Outside academia, I enjoy running and mountaineering. As an undergraduate, I was a track and field athlete, competing in middle- and long-distance running and the 400 meters. In 2019, I was a member of Tsinghua University’s mountaineering team.</p><p>I approach research, teaching, and life with optimism, curiosity, and persistence. Sports are an important source of energy and balance in my daily life.</p></div>
-      <figure class="beyond-photo"><div class="beyond-image"><img src="assets/yumei-he-hiking-closeup.png" alt="Yumei He hiking on a forest trail with a backpack and trekking poles" width="864" height="890" loading="lazy" decoding="async"></div><div class="photo-frame-footer" aria-hidden="true"></div></figure>
     </section>
 
   </main>

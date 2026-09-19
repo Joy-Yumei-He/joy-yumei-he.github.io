@@ -165,6 +165,35 @@ nav{font-size:16px;gap:24px}
   .beyond-photo{width:var(--beyond-photo-width,312px);max-width:100%;justify-self:start}
 }
 
+/* Open AI Science shares the site's white surfaces and lavender accents. */
+.hero-description a{color:var(--purple);text-decoration:underline;text-underline-offset:4px}
+.open-science-feature{scroll-margin-top:110px;border-left:2px solid #d5c5e4;padding-left:26px;margin-top:30px}
+.open-science-feature>h3{font:400 29px/1.3 var(--serif);color:var(--purple);margin-bottom:14px}
+.open-science-intro{max-width:850px;font-size:18px;line-height:1.75}
+.open-science-projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px;margin-top:28px}
+.open-science-feature h4{font:500 24px/1.4 var(--serif);margin:7px 0 12px}
+.open-science-projects article>p:not(.eyebrow){font-size:18px;line-height:1.75}
+.open-science-projects .project-presentation{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}
+.research-resource-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:14px;font-size:17px;color:var(--purple)}
+.research-resource-links a,.research-coverage a{text-decoration:underline;text-underline-offset:4px;text-decoration-color:#c5b4d6}
+.research-coverage{margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
+.research-coverage h4{font-size:22px}
+.research-coverage ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.research-coverage a{font-size:18px;color:var(--purple)}
+.research-coverage span{display:block;font-size:16px;color:var(--muted);margin-top:2px}
+.beyond-grid>div,.beyond-photo,.beyond-honors{min-width:0}
+.beyond-honors{grid-column:1/-1;width:100%;margin-top:0}
+@media(min-width:761px){.beyond-grid{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);row-gap:48px}}
+#beyond .beyond-honors .award-entry p{font-size:18px;line-height:1.6;margin-top:6px}
+@media(max-width:760px){
+  .open-science-feature{padding-left:18px;scroll-margin-top:90px}
+  .open-science-projects{grid-template-columns:1fr;gap:26px}
+  .open-science-feature>h3{font-size:26px}
+  .open-science-intro,.open-science-projects article>p:not(.eyebrow),.research-coverage a{font-size:17px}
+  .research-resource-links,.research-coverage span,#beyond .beyond-honors .award-entry p{font-size:16px}
+  .beyond-honors{margin-top:16px}
+}
+
 /* Detailed academic service: readable categories, years, and responsibilities. */
 .service-group+.service-group{margin-top:48px;padding-top:36px;border-top:1px solid var(--line)}
 .service-group>h3{font:400 29px/1.3 var(--serif);margin:0 0 24px;color:var(--ink)}
