@@ -234,3 +234,15 @@ nav{font-size:16px;gap:24px}
   .service-group p,.service-list{font-size:17px}
   .service-group .service-date{font-size:15px}
 }
+
+
+/* Three research directions, with related foundations and working-paper context. */
+.research-direction-intro{max-width:900px;font-size:18px;line-height:1.75;margin-bottom:24px}
+.project-content .project-note{font-size:16px;line-height:1.65;margin-top:4px}
+.legacy-anchor{display:block;scroll-margin-top:110px}
+.open-science-feature>.eyebrow{margin-bottom:10px}
+@media(max-width:760px){
+  .research-direction-intro{font-size:17px}
+  .project-content .project-note{font-size:15px}
+  .legacy-anchor{scroll-margin-top:90px}
+}
