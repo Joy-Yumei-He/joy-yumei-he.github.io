@@ -11,7 +11,7 @@
   --berry:#6e022f;
   --rose:#c40361;
   --lavender:#f6f0f7;
-  --frame:#b28cbe;
+  --frame:var(--purple);
   --line:#e7dee9;
   --line-accent:#b99ac4;
   --on-purple:#fcf8ff;
@@ -280,6 +280,7 @@ nav a[aria-current]::after{background:var(--rose)}
 
 /* Keep the color treatment light and legible in printed copies. */
 @media print{body,.site-header,.publications-section,.service-section,.teaching-section,.contact-section,.research-ribbon,.research-card{background:#fff;color:#30223b}.research-ribbon .container{color:#30223b}.portrait,.beyond-photo{box-shadow:none}}
+
 
 
 
