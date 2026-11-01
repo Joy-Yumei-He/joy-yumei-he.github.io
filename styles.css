@@ -281,8 +281,7 @@ nav a[aria-current]::after{background:var(--rose)}
 /* Keep the color treatment light and legible in printed copies. */
 @media print{body,.site-header,.publications-section,.service-section,.teaching-section,.contact-section,.research-ribbon,.research-card{background:#fff;color:#30223b}.research-ribbon .container{color:#30223b}.portrait,.beyond-photo{box-shadow:none}}
 
-
-
-
-
+/* Introduce the research identity with a short statement of approach. */
+.hero-tagline{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--muted);max-width:440px;margin-top:12px}
+@media(max-width:760px){.hero-tagline{font-size:18px}}
 
