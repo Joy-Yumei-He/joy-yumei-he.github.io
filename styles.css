@@ -358,3 +358,8 @@ body{font-size-adjust:none}
 }
 
 
+
+/* Present the portrait directly on the white page. */
+.hero .portrait-backdrop,.hero .photo-frame-footer{display:none}
+.hero .portrait,.hero .portrait-image{background:transparent}
+.hero .portrait{border:0;box-shadow:none}
