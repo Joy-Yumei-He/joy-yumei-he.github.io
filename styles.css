@@ -190,10 +190,10 @@ nav a[aria-current]::after{background:var(--rose)}
   #research-overview>.section-heading{grid-template-columns:minmax(0,1fr);gap:18px;margin-bottom:28px}
 }
 
-/* Match the complete hiking frame to the adjacent copy without cropping. */
+/* Give the complete hiking photo a larger responsive width without cropping. */
 @media(min-width:761px){
   .beyond-grid{align-items:start}
-  .beyond-photo{width:var(--beyond-photo-width,312px);max-width:100%;justify-self:start}
+  .beyond-photo{width:100%;max-width:440px;justify-self:start}
 }
 
 /* Compact honors: award, all years, and institution in one flowing entry. */
